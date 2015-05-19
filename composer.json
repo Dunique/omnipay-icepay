@@ -1,0 +1,33 @@
+{
+    "name": "Dunique/omnipay-icepay",
+    "description": "Icepay gateway for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment",
+        "Icepay"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dunique",
+            "email": "info@dunique.nl"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Icepay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "~2.2"
+    },
+        "require-dev": {
+        "omnipay/tests": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    }
+}
